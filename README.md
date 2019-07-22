@@ -93,7 +93,7 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 
 -下载客户端(点击圈中的客户端)
 
-![](./image.bmp)
+![](./image.jpg)
 
 
 
@@ -102,7 +102,7 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 - 解压下载好的压缩包,并双击打开
 
 - 在对应的位置输入之前搭建好的服务器信息
-- ![](./client.bmp)
+- ![](./client.jpg)
 
 
 
@@ -110,7 +110,7 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 
 - 右键任务栏上的小飞机--->系统代理--->PAC模式
 
-  ![](./ss.png)
+  ![](./ss.jpg)
 
 
 
@@ -128,5 +128,5 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 
   
 
-![](./Android.bmp)
+![](./Android.jpg)
 
