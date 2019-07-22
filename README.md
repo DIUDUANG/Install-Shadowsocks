@@ -108,13 +108,29 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
 
 
 
+
+
+
+
 - 右键任务栏上的小飞机--->系统代理--->PAC模式
 
   ![](./ss.jpg)
 
 
 
+
+
+
+
 - 好了,可以开始愉快地玩耍了
+
+
+
+
+
+
+
+
 
 
 
@@ -126,7 +142,12 @@ https://github.com/shadowsocks/shadowsocks-windows/releases
   https://github.com/shadowsocks/shadowsocks-android/releases
   ```
 
-  
+
+
+
+
+
+
 
 ![](./Android.jpg)
 
