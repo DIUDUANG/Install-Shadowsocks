@@ -1,5 +1,27 @@
 # Linux搭建Shadowsocks服务器教程
 
+## 安装前准备
+
+
+
+### CentOS
+
+```
+sudo yum install vim wget git 
+```
+
+
+
+### ubuntu
+
+```
+sudo apt-get install vim wget git
+```
+
+
+
+---
+
 
 
 
