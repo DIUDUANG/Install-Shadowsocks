@@ -1,6 +1,12 @@
-# 搭建Shadowsocks服务器教程
+# Linux搭建Shadowsocks服务器教程
+
+
+
+
 
 ## 第一步:一键安装Shadowsocks
+
+
 
 ```
 wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
@@ -13,7 +19,13 @@ wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/
 
 
 
+
+
+
+
 ## 第二步:一键安装并启动obfs加速
+
+
 
 ```
 cd /usr/src;sudo yum install gcc autoconf libtool automake make zlib-devel openssl-devel asciidoc xmlto;git clone https://github.com/shadowsocks/simple-obfs.git;cd simple-obfs;git submodule update --init --recursive;./autogen.sh;./configure --disable-documentation;make && make install
@@ -21,7 +33,13 @@ cd /usr/src;sudo yum install gcc autoconf libtool automake make zlib-devel opens
 
 
 
+
+
+
+
 ## 第三步:安装BBR加速
+
+
 
 ```
 cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
@@ -31,7 +49,13 @@ cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com
 
 
 
+
+
+
+
 ## 第四步:启动BBR加速
+
+
 
 ```
 cd /usr/src && ./tcp.sh
@@ -41,6 +65,68 @@ cd /usr/src && ./tcp.sh
 
 
 
+
+
+
+
 ## 恭喜,到这一步你就安装完成了.
 
-- 
+
+
+
+
+# 客户端的使用
+
+
+
+## windows端
+
+
+
+- 打开这网址
+
+```
+https://github.com/shadowsocks/shadowsocks-windows/releases
+```
+
+
+
+-下载客户端(点击圈中的客户端)
+
+![](./image.bmp)
+
+
+
+
+
+- 解压下载好的压缩包,并双击打开
+
+- 在对应的位置输入之前搭建好的服务器信息
+- ![](./client.bmp)
+
+
+
+
+
+- 右键任务栏上的小飞机--->系统代理--->PAC模式
+
+  ![](./ss.png)
+
+
+
+- 好了,可以开始愉快地玩耍了
+
+
+
+## Android端
+
+- 打开下面网址
+
+  ```
+  https://github.com/shadowsocks/shadowsocks-android/releases
+  ```
+
+  
+
+![](./Android.bmp)
+
