@@ -10,8 +10,6 @@
 
 ```
 wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh && chmod +x shadowsocks.sh && ./shadowsocks.sh 2>&1 | tee shadowsocks.log
-
-
 ```
 
 - 安装过程中分别要输入密码,端口号,和选择加密方式
