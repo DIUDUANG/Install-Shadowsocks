@@ -7,7 +7,7 @@
 ### CentOS
 
 ```
-sudo yum install vim wget git -y
+sudo yum install vim wget git gcc gcc-c++ -y
 ```
 
 
@@ -15,7 +15,7 @@ sudo yum install vim wget git -y
 ### ubuntu
 
 ```
-sudo apt-get install vim wget git -y
+sudo apt-get install vim wget git gcc gcc-c++ -y
 ```
 
 
