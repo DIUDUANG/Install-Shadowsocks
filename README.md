@@ -7,7 +7,7 @@
 ### CentOS
 
 ```
-sudo yum install vim wget git gcc gcc-c++ lib-devel -y
+sudo yum install vim wget git gcc gcc-c++ libev-devel -y
 ```
 
 
